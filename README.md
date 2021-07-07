@@ -24,7 +24,7 @@ Use the package installer [pip](https://pip.pypa.io/en/stable/) to install calcu
 
 from calculator.calculator import Calculator
 ```
-* Install via pypi
+* Install via [pypi](https://pypi.org/project/calpython/)
 ```python
 !pip install calpython
 ```
