@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='calpy',
+    name='calpython',
     version='0.0.1',
     license='MIT',
     description='Calculator package for simple arithmetic operations.',
@@ -12,8 +12,8 @@ setuptools.setup(
     author_email='fortune.uwha@gmail.com',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/fortune-uwha/calculator',
-    download_url='https://github.com/fortune-uwha/calculator/archive/refs/tags/v0.0.1.tar.gz',
+    url='https://github.com/fortune-uwha/tc_calculator',
+    download_url='https://github.com/fortune-uwha/tc_calculator/archive/refs/tags/v0.0.1.tar.gz',
     packages=setuptools.find_packages(),
     keywords=['calculator', 'maths', 'arithmetic'],
     classifiers=[
