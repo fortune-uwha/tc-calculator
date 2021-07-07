@@ -19,7 +19,7 @@ Python - version 3.8
 ## Installation
 Use the package installer [pip](https://pip.pypa.io/en/stable/) to install calculator.
 ```python
-!pip install git+https://github.com/fortune-uwha/calculator
+!pip install git+https://github.com/fortune-uwha/tc_calculator
 
 from calculator.calculator import Calculator
 ```
