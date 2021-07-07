@@ -12,8 +12,9 @@ setuptools.setup(
     author_email='fortune.uwha@gmail.com',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/fortune-uwha/calculator',
-    package_dir={'': 'calculator'},
+    url='https://github.com/fortune-uwha/tc_calculator',
+    download_url='https://github.com/fortune-uwha/tc_calculator/archive/refs/tags/v0.0.1.tar.gz',
+    packages=setuptools.find_packages(),
     keywords=['calculator', 'maths', 'arithmetic'],
     classifiers=[
         'License :: OSI Approved :: MIT License',
@@ -23,4 +24,3 @@ setuptools.setup(
     ],
     python_requires=">=3.6",
 )
-
