@@ -21,8 +21,6 @@ Use the package installer [pip](https://pip.pypa.io/en/stable/) to install calcu
 * Install directly from github repository
 ```python
 !pip install git+https://github.com/fortune-uwha/tc_calculator
-
-from calculator.calculator import Calculator
 ```
 * Install via [pypi](https://pypi.org/project/calpython/)
 ```python
@@ -31,7 +29,10 @@ from calculator.calculator import Calculator
 
 ## Usage
 ```python
+from calculator.calculator import Calculator
+
 calculator = Calculator()
+
 calculator.add(12)
 calculator.subtract(3)
 calculator.divide(3)
